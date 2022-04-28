@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+#divnav {
+  background-color: white;
+  color: #03224c;
+  position: fixed;
+  width: 400px;
+  height: 90px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  box-shadow: 0 8px 16px 0 white;
+}
+#h3nav {
+  position: relative;
+  top: 29px;
+  font-size: 28px;
+  text-shadow: 1px 1px 4px grey;
+  text-align: center;
+  right: 11%;
+}
+#imgnav {
+  height: 90px;
+  float: left;
+}
+ul {
+  list-style-type: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  text-shadow: 5px 5px 4px gray;
+}
+
+#btn {
+  height: 3rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: cornflowerblue;
+}
+
+.red {
+  background-color: red;
+}
+
+.card-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+/*c'est pour gérer l'affichage des cartes des regions*/
+.card {
+  height: 30rem;
+  width: 21rem;
+  background-color: cadetblue;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  right: 7.9%;
+  box-shadow: 5px 5px 0.6em gray, -5px -5px 0.6em gray;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .img-card {
+  height: 80%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.text-card-container {
+  display: flex;
+  column-gap: 4rem;
+  /* justify-content: space-around; */
+  margin-bottom: 2rem;
+  font-size: large;
+  padding: 0 0.5rem;
+}
+
+.see-more {
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 0.4em gray, -1px -1px 0.4em gray;
+}
+.see-more:hover {
+  transform: scale(1.1);
+}
+
+.informations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#divdescr {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 5px;
+  position: relative;
+  background-size: cover;
+}
+#h1img {
+  position: absolute;
+  color: red;
+  text-decoration: underline;
+}
+#footer {
+  background-color: white;
+  color: #03224c;
+  width: 400px;
+  height: 90px;
+  position: absolute;
+  top: 1280px;
+  bottom: 0px;
+  width: 100%;
+  box-shadow: 0 8px 16px 0 white;
+}
+#pfooter {
+  top: 10px;
+  position: absolute;
+  left: 671px;
+  font-weight: bolder;
+}
