@@ -20,14 +20,13 @@ body {
   bottom: 0px;
   width: 100%;
   box-shadow: 0 8px 16px 0 white;
+  text-align: center;
 }
 #h3nav {
   position: relative;
   top: 29px;
   font-size: 28px;
   text-shadow: 1px 1px 4px grey;
-  text-align: center;
-  right: 11%;
 }
 #imgnav {
   height: 90px;
@@ -84,7 +83,7 @@ ul {
   align-items: center;
   border-radius: 5px;
   position: relative;
-  right: 7.9%;
+
   box-shadow: 5px 5px 0.6em gray, -5px -5px 0.6em gray;
 }
 
@@ -161,6 +160,6 @@ ul {
 #pfooter {
   top: 10px;
   position: absolute;
-  left: 671px;
+  left: 811px;
   font-weight: bolder;
 }
