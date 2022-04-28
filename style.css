@@ -138,6 +138,15 @@ ul {
   color: red;
   text-decoration: underline;
 }
+#retour {
+  background-color: #03224c;
+  color: white;
+  text-decoration: none;
+}
+#retour:hover {
+  background-color: rgb(34, 34, 124);
+  text-decoration: underline;
+}
 #footer {
   background-color: white;
   color: #03224c;
